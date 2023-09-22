@@ -12,12 +12,16 @@ namespace HelloWord.Controllers
         {
             return " Hello Word! Turma .NET 03 ";
         }
-        [HttpGet ("/meunome")] // o modo de usar o mesmo endereço ip httpget("/") conhecido com endpoints , para quebrar linha <br >
-        public string MeuNome() 
+        [HttpGet ("/bsmgenerationbrasil")] // o modo de usar o mesmo endereço ip httpget("/") conhecido com endpoints , para quebrar linha <br >
+        public string Bsm() 
         {
-            return " Luciano Simões ";
+            return "Persistencia\nResponsabilidade Pessoal\nMentalidade de Crescimento\nOrientação ao Futuro\nComunicação\nOrientação aos Detalhes\nProatividade\nTrabalho em Equipe";
         }
-
+        [HttpGet("/objetivosdeaprendizagem")] // o modo de usar o mesmo endereço ip httpget("/") conhecido com endpoints , para quebrar linha <br >
+        public string Objetivos()
+        {
+            return "Meu objetivo é absorver o maximo possivel de AspNet";
+        }
     }
 }
 
